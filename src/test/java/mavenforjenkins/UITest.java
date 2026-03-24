@@ -35,6 +35,8 @@ public class UITest {
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		Assert.assertTrue(driver.getTitle().contains("Orange"), "Title does not match");
 		System.out.println("This Maven Jenkins");
+
+		int y = 30;
 		driver.quit();
 	}
 }
