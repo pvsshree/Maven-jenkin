@@ -17,7 +17,9 @@ public class UITest {
 	
 	{
 		System.out.println("Parameter name is" +browserName);
-		
+
+		System.out.println("WEBHOOK ADDED");
+		System.out.println("POLL SCM ADDED");
 		WebDriver driver = null;
 		if (browserName.contains("chrome"))
 		{
