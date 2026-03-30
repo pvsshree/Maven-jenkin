@@ -40,7 +40,7 @@ public class UITest {
 System.out.println("This is Pipeline with Git");
 		
 
-		int y = 30;
+		int y = 50;
 		driver.quit();
 	}
 }
